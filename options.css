@@ -1,0 +1,51 @@
+.mo {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+h1 {
+  font-family: ubuntu;
+}
+
+#textarea {
+  background-color: grey;
+  border-radius: 10px;
+  margin: 20px;
+  margin-top: 0px;
+  width: 550px;
+  height: 170px;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  margin-top: 200px;
+}
+.note {
+  text-align: left;
+  margin: 20px 0px 10px 50px;
+  font-family: consolas;
+  font-size: 15px;
+}
+.color {
+  animation: myanimation 1s infinite;
+}
+
+@keyframes myanimation {
+  0% {
+    color: rgb(0, 183, 255);
+  }
+  25% {
+    color: rgb(255, 255, 255);
+  }
+  50% {
+    color: rgb(0, 255, 115);
+  }
+  75% {
+    color: rgb(255, 255, 255);
+  }
+  100% {
+    color: rgb(255, 102, 0);
+  }
+}
